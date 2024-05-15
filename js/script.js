@@ -1,3 +1,5 @@
+//Script file
+
 function changeReview(id) {
   var status = document.getElementById("status" + id).value;
   $.ajax({

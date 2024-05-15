@@ -247,3 +247,8 @@ if (isset($_POST['deleteFavorite'])) {
     $controller = new AdminUsersPageController();
     $controller->deleteFavorite();
 }
+
+if (isset($_POST['deleteFavoriters'])) {
+    $controller = new AdminUsersPageController();
+    $controller->deleteFavorite();
+}
